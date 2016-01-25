@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Columbia University ELEN E4902 IoT Project Report group 7</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
+							<h1 id="title">Smart shopping</h1>
+							<p>Columbia University E4902 Fall'15<br>
+								Topic : Internet of Things<br>
+								Intelligent and Connected Systems<br>
+								Team 7 Project Report
+							</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Abstract</span></a></li>
+								<li><a href="#motivation" id="motivation-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Motivation</span></a></li>
+								<li><a href="#system" id="system-link" class="skel-layers-ignoreHref"><span class="icon fa-th">System</span></a></li>
+								<li><a href="#results" id="results-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Results</span></a></li>
+								<li><a href="#references" id="references-link" class="skel-layers-ignoreHref"><span class="icon fa-th">References</span></a></li>
+								<li><a href="#team" id="team-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Our Team</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/FMoSTxHlR-E" frameborder="0" allowfullscreen></iframe>
+	
+								<h2 class="alt">Smart Shopping</h2>
+								<p> when technology comes into shopping</p>
+								<p> we care about how to improve your unique shopping experience</p>
+								<p> make shopping easier, faster and smarter using ibeacon</p>
+								<p> Internet of things change the way people live</p>
+								
+
+							<footer>
+								<a href="#motivation" class="button scrolly">Motivation</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="motivation" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Motivation</h2>
+							</header>
+							<p align="left">Momentum continues to build around Apple's iBeacon, an advanced location transmitter that has the potential to revolutionize the retail experience by incorporating alerts for reminding approaching the items and sale information</p>
+                            <a href="#" class="center fit"><img src="images/iBeacon2_meitu_1.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							
+
+
+
+						</div>
+					</section>
+					
+					
+					<section id="system" class="three">
+						<div class="container">
+
+							<header>
+								<h2>System</h2>
+							</header>
+							
+							
+							
+							<h3 align="left">Architecture</h3>
+
+							<p align="left">Users are able to input the order via the app and the commands will be transfered immediately to the server running on the virtual machine, then appropriate information will be selected from database. Afterwards, the message will returned to the app, and users will be accepted the push notifications once them enter into the preselected monitoring range of iBeacon.</p>
+							<a href="#" class="center fit"><img src="images/architecture.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							
+							<h3 align="left">Technical Components</h3>
+							<p align="left">Ibeacon:</p>
+							<a href="#" class="center fit"><img src="images/iBeacon4.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">iBeacon is the name for Apple’s technology standard, which allows Mobile Apps (running on both iOS and Android devices) to listen for signals from beacons in the physical world and react accordingly. In essence, iBeacon technology allows Mobile Apps to understand their position on a micro-local scale, and deliver hyper-contextual content to users based on location. The underlying communication technology is Bluetooth Low Energy. </p>
+                            <p align="left">With iBeacon, Apple has standardized the format for BLE Advertising. Under this format, an advertising packet consists of four main pieces of information: UUID, Major and Minor</p>
+							<h3 align="left">Prototype</h3>
+                            <a href="#" class="center fit"><img src="images/smarticon.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">The product's icon is named Smart Shop</p>
+							<a href="#" class="center fit"><img src="images/mainpage.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">The main page of the product includes 6 districts.</p>
+							<a href="#" class="center fit"><img src="images/order.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">For example, we can order a kind of perfume.</p>
+							<a href="#" class="center fit"><img src="images/Todaydeal.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">Once you enter a district then you will find the discount information.</p>
+							<a href="#" class="center fit"><img src="images/Findorder.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">Find your order!</p>
+							<a href="#" class="center fit"><img src="images/orderinformation.jpg" style="width: 50%; height: 50%; alt="" /></a>
+							<p align="left">Here is your order's information</p>
+							
+							
+						</div>
+					</section>
+					
+					
+					<section id="results" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Results</h2>
+							</header>
+							<p align="middle">Below is a dynamic graph which demonstrates the how we operate and the results:</p>
+                            <a href="#" class="center fit"><img src="images/result.gif" style="width: 50%; height: 30%;alt="" /></a>
+							<p align="left">when customers add goods( which must be exist in stock)into the cart, your phone will be searching for the certain ibeacon. If it detects that the distance is below a value, notification will be pooped up to remind you </p>
+
+
+							
+							
+							
+						</div>
+					</section>
+					
+					<section id="references" class="three">
+						<div class="container">
+
+							<header>
+								<h2>References</h2>
+							</header>
+
+							<p align="left">https://developer.apple.com/ibeacon/</p>
+                            <p align="left">https://www.youtube.com/watch?v=lwnmx-5mBLM</p>
+                            <p align="left">http://southpeak.github.io/blog/2014/07/27/ibeaconji-zhu-chu-tan/</p>
+                            <p align="left">https://www.youtube.com/watch?v=3jJiqzbzutU</p>
+
+						</div>
+					</section>
+					
+
+				<!-- About Me -->
+					<section id="team" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Our Team</h2>
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="center fit"><img src="images/wyt.jpg" style="width: 100%; height: 80%;alt="" /></a>
+										<header>
+											<h3>Yitong Wang</h3>
+											<p>Columbia University, major in EE</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="center fit"><img src="images/dyh.jpg" style="width: 100%; height: 80%;alt="" /></a>
+										<header>
+											<h3>Yihan Dai</h3>
+											<p>Columbia University, major in EE</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="center fit"><img src="images/wsh.jpg" style="width: 100%; height: 80%;alt="" /></a>
+										<header>
+											<h3>Sihan Wu</h3>
+											<p>Columbia University, major in EE</p>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p align="left">
+								<strong>Contact Name 1:Yihan Dai </strong> email: yd2349@columbia.edu</br>
+								<strong>Contact Name 2:Yitong Wang </strong> email: yw2786@columbia.edu</br>
+								<strong>Contact Name 3:Sihan Wu</strong> email: sw3013@columbia.edu</br>
+							</br>
+								<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
+								<strong>Class Website:</strong>
+									<a href="http://edblogs.columbia.edu/elen4902-iot/">Columbia University ELEN E4902 Fall '15 IoT</a></br>
+								<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+							</p>
+							
+
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
