@@ -1,0 +1,17 @@
+$def with (c)
+<ul>
+$for content in c:
+    <li '$content.id'>$content.id  $content.title $content.created</li>
+</ul>
+
+<!-- <form method="post" action="add"> -->
+<p><input type="text" name="title" /> <input type="submit" value="Add" /></p>
+</form>
+
+<!-- <form method="post" action="history1"> -->
+<p> <input type="submit" value="history" /></p>
+</form>
+
+<!-- <form method="post" action="mail1"> -->
+<p> <input type="submit" value="mail" /></p>
+</form>

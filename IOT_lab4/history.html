@@ -1,0 +1,11 @@
+$def with (h)
+<ul>
+$for history in h:
+    <li id="t$history.id">$history.id $history.ip $history.created $history.method</li>
+</ul>
+
+
+
+<!-- <form method="post" action="delete"> -->
+<p> <input type="submit" value="delete" /></p>
+</form>
