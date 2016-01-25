@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="80dip" android:orientation="vertical">
+
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="PROCESS ID : "></TextView>
+		<TextView android:id="@+id/tvProcessPID"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="3dip" android:textColor="#9932CC"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="BATTERY USAGE:"></TextView>
+		<TextView android:id="@+id/tvProcessUID"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#9932CC"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="PROCESS MEMORY:"></TextView>
+		<TextView android:id="@+id/tvProcessMemSize"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#9932CC"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="CPU USAGE:"></TextView>
+		<TextView android:id="@+id/tvProcessCpuUsage"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#9932CC"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="PROCESS NAME:"></TextView>
+		<TextView android:id="@+id/tvProcessName"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#9932CC"></TextView>
+	</LinearLayout>
+</LinearLayout>
