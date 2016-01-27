@@ -1,5 +1,5 @@
 # WorkProjects
-Project codes are listed for the first semester
+#Project codes are listed for the first semester
 IOT- Intelligent Connected System:
 six labs and one final project called Smart Shopping
 Computer Networks:
