@@ -1,6 +1,6 @@
 # WorkProjects
-#Project codes are listed for the first semester
-IOT- Intelligent Connected System:
+Project codes are listed for the first semester\\
+IOT- Intelligent Connected System:\\
 six labs and one final project called Smart Shopping
 Computer Networks:
 Three prjects in Python
